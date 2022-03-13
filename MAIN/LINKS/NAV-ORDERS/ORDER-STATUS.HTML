@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Status | Gilson Snow</title>
+    <link rel="stylesheet" href="ORDER-STATUS.CSS">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous">
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+</style>
+
+<body>
+    <nav class="navbar fixed-top">
+        <ul class="nav-item">
+            <a class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <i id="bars" style="color: white;" class="fas fa-bars"></i>
+            </a>
+            <li class="navbar-brand"><a href="../../MAIN.HTML"><img src="gilson.png" alt=""></a></li>
+            <li class="nav-link"><a href="../NAV-SNOWBOARDS/SNOWBOARDS.HTML">SNOWBOARDS <i
+                        class="fas fa-caret-down"></i></a>
+                <ul class="drop-menu">
+                    <li class="drop-item"><a href="#">Lineup</a></li>
+                    <li class="drop-item"><a href="#">Fast Ship Inventory</a></li>
+                    <li class="drop-item"><a href="#">Tech</a></li>
+                    <li class="drop-item"><a href="#">Custom</a></li>
+                </ul>
+            </li>
+            <li class="nav-link"><a href="../NAV-SKIS/SKIS.HTML">SKIS <i class="fas fa-caret-down"></i></a>
+                <ul class="drop-menu">
+                    <li class="drop-item"><a href="#">Lineup</a></li>
+                    <li class="drop-item"><a href="#">Fast Ship Inventory</a></li>
+                    <li class="drop-item"><a href="#">Tech</a></li>
+                    <li class="drop-item"><a href="#">Custom</a></li>
+                </ul>
+            </li>
+            <li class="nav-link"><a href="../NAV-GEAR/GEAR.HTML">GEAR</a></li>
+            <li class="nav-link"><a href="../NAV-ABOUT/ABOUT.HTML">ABOUT <i class="fas fa-caret-down"></i></a>
+                <ul class="drop-menu">
+                    <li class="drop-item"><a href="#">Lineup</a></li>
+                    <li class="drop-item"><a href="#">Fast Ship Inventory</a></li>
+                    <li class="drop-item"><a href="#">Tech</a></li>
+                    <li class="drop-item"><a href="#">Custom</a></li>
+                </ul>
+            </li>
+            <li class="nav-link"><a href="../NAV-CLOSEOUTS/CLOSEOUTS.HTML">CLOSEOUTS</a></li>
+            <li class="nav-link"><a href="ORDER-STATUS.HTML" style="border: none;">ORDER STATUS</a></li>
+        </ul>
+
+
+        <a href="../NAV-CART/CART.HTML"><i id="cart" class="fas fa-shopping-cart"></i></a>
+        
+        
+    </nav>
+
+    <div class="orange-box">
+        <h6>
+            <a href="#">Special Fast-Ship Inventory NOW AVAILABLE - Orders Leave Shop in 1 Day!</a>
+        </h6>
+    </div>
+
+    <!-- ORDER-STATUS -->
+
+
+
+
+    <div class="main-content secondary">
+        <div class="content-wrapper">
+            <div class="inner">
+                <div class="full-width shop">
+                    <div class="checkout-wrapper row">
+                        <div class="col-md-8 offset-md-1">
+
+                            <h4 class="mb-3">Check Order Status</h4>
+                            <p>Enter credentials below to view order status.</p>
+
+                            <form id="bread-checkout-form" action="/order-status" accept-charset="UTF-8" method="post">
+                                <input name="utf8" type="hidden" value="✓"><input type="hidden"
+                                    name="authenticity_token"
+                                    value="hlMWkS0IdgWaVIJ6WvxksrZetoExyO2XMplEnwiV43ZFxTKsknkAKl2njaBwCx3HQcoQwS23YFY1D5ufui86Qg==">
+
+
+                                <div class="mb-3">
+                                    <label for="email" class="mb-1">Email</label>
+                                    <input id="email" value="" class="form-control" required="required" type="email"
+                                        name="order[email]">
+                                </div>
+
+                                <div class="mb-3">
+                                    <label for="invoice" class="mb-1">Invoice Number <span class="text-muted">(Format:
+                                            G0123-4567)</span></label>
+                                    <input id="invoice" value="" placeholder="G0123-4567" class="form-control"
+                                        required="required" type="text" name="order[invoice]">
+                                </div>
+
+                                <input type="submit" name="commit" value="Submit" id="submit"
+                                    class="btn btn-primary btn-lg btn-block" data-disable-with="Submitting...">
+
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- FOOTER -->
+
+
+    <footer>
+        <div class="container-1">
+
+            <a class="logo" href="../../MAIN.HTML" aria-label="gilson logo link home"><img alt="Gilson Home"
+                    src="gilson.png"></a>
+
+            <ul class="social">
+                <li><a href="https://www.facebook.com/GilsonSnow" aria-label="Gilson fa-facebook"><i
+                            class="fab fa-facebook-square"></i></a></li>
+                <li><a href="https://www.instagram.com/GilsonSnow" aria-label="Gilson Instagram"><i
+                            class="fab fa-instagram"></i></a></li>
+                <li><a href="https://www.twitter.com/GilsonSnow" aria-label="Gilson Instagram"><i
+                            class="fab fa-twitter"></i></a></li>
+                <!--  <li class="fab fa-twitter"><a href="">Twitter</a></li>-->
+                <!--  <li class="fab fa-youtube"><a href="">Youtube</a></li>-->
+            </ul>
+
+            <div class="contact-hours">
+
+                <div class="contact">
+                    <p>6985 New Berlin Hwy<br>
+                        Winfield, PA 17889<br>
+                        (570) 600-8603<br>
+                        info@gilsonsnow.com</p>
+                </div>
+
+                <div class="hours">
+                    <p><strong>Store Hours</strong><br>
+                        Monday - Friday: 9am - 5pm<br>
+                        Saturday: Appointment Only</p>
+                </div>
+            </div> <!-- contact -->
+
+        </div> <!-- container-1 -->
+
+
+        <div class="container-2">
+            <div class="inner">
+                © 2022, Gilson Snow, Inc. | <a href="../PRIVACY-POLICY/PRIVACY-POLICY.HTML"
+                    aria-label="Privacy Policy">Privacy Policy</a> |
+                <a href="../RETURNS & REFUNDS/RETURNS-&-REFUNDS.HTML" aria-label="Returns &amp; Refunds">Returns &amp;
+                    Refunds</a> | <a href="../SHIPPING-POLICY/SHIPPING-POLICY.HTML"
+                    aria-label="Shipping Policy">Shipping Policy</a> | <a
+                    href="../TERMS & CONDITIONS/TERMS-&-CONDITIONS.HTML" aria-label="Terms and Conditions">Terms &amp;
+                    Conditions</a> | <a href="../WARRANTY/WARRANTY.HTML" aria-label="Warranty">Warranty</a>
+              </div>
+        </div> <!-- container-2 -->
+
+    </footer>
+
+
+
+
+
+
+
+</body>
+
+</html>

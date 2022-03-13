@@ -1,0 +1,35 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+@media (min-width:2200px)
+{
+   
+    .carousel-indicators li
+    {
+        position: relative;
+        bottom: 10px;
+    }
+}
+@media(max-width:376px)
+{
+     .carousel-item img
+    {
+        margin-left: -150px !important;
+        display: block !important;
+        width: unset !important;
+        height: 375px !important;
+    }
+}
+@media(max-width:415px)
+{
+     .carousel-item img
+    {
+        margin-left: -150px !important;
+        display: block !important;
+        width: unset !important;
+        height: 375px !important;
+    }
+}

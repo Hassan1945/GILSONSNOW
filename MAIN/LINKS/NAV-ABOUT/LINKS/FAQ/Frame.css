@@ -1,0 +1,204 @@
+*
+{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+} 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+@font-face {
+    font-family: orangefonts;
+    src: url(THIN.ttf);
+  }
+  @font-face {
+    font-family: specialfonts;
+    src: url(FONTS/MrEavesXLModOT-Book.ttf);
+  }
+  @font-face {
+    font-family: regfont;
+    src: url(FONTS/MrEavesXLModOT-Reg.ttf);
+  }
+@font-face {
+  font-family: thickfont;
+  src: url(FONTS/MrEavesXLModOT-Heavy.ttf);
+}
+@font-face {
+  font-family: boldfont;
+  src: url(FONTS/MrEavesXLModOT-Reg.ttf);
+}
+
+
+
+body
+{
+  font-family: 'Open Sans', sans-serif !important;
+}
+
+                                                /* FAQ's */
+
+.why-text {
+    float: left;
+    width: 100%;
+    padding: 30px 0;
+    background: #F0EEE1;
+}
+.why-text h3 {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    color: #4D6479;
+    font-size: 43px;
+    font-weight:1000;
+    font-family: 'specialfonts';
+}
+.warranty-accordions {
+    margin: auto;
+}
+.full-width
+{
+    padding-top: 80px;
+}
+.accordion {
+    overflow-anchor: none;
+}
+.accordion>.card {
+    overflow: hidden;
+}
+.main-content.secondary .hero.faq {
+    background-image: url(snowboards.jpg) !important;
+    background-size: cover;
+    background-position: bottom;
+}
+.hero.faq 
+{
+    color: white !important;
+    padding: 80px 85px !important;
+    text-align: center !important;
+}
+.hero.faq h1 
+{
+    font-family: 'thickfont' !important;
+    text-shadow: 5px 5px 20px #000;
+    font-size: 4em !important;
+}
+.card-header {
+    padding: 0.75rem 1.25rem;
+    background-color: rgba(0,0,0,.03);
+    border-bottom: 1px solid rgba(0,0,0,.125);
+}
+.accordion>.card>.card-header {
+    border-radius: 0;
+    margin-bottom: -1px;
+}
+h5 {
+    text-align: center;
+    font-family: 'specialfonts' !important;
+    color: #332D2B;
+    margin: 0 0 20px 0;
+    font-weight: 600 !important;
+    font-size: 2em !important;
+}
+.main-content .content-wrapper {
+    width: 100%;
+    max-width: 1200px;
+    float: none;
+    margin: 0 auto;
+    padding: 0 5%;
+}
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 0.25rem;
+}
+.full-width .card.faq button {
+    width: 100%;
+    text-align: left;
+    font-size: .7em;
+    line-height: .9em;
+    font-weight: 500;
+    color: #3E4F60;
+    float: left;
+    white-space: normal;
+}
+.full-width .card.faq i {
+    float: left;
+    padding: 0 10px 0 0;
+    display: inline;
+    color: #F26144;
+}
+.fas {
+    font-weight: 900;
+    -webkit-font-smoothing: antialiased;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+}
+.fa-plus:before {
+    content: "\f067";
+}
+
+
+
+
+
+@media(max-width:1199.98px)
+{
+    .full-width
+    {
+        padding: 40px 20px !important;
+    }
+    .hero.faq
+    {
+        padding: 80px 51.800px !important;
+    }
+}
+
+
+
+
+
+@media(min-width:480px)
+{
+    .hero.faq h1 
+    {
+        font-size: 3.5em !important;
+    }
+}
+@media(min-width:576px)
+{
+    .hero.faq h1
+    {
+        font-size: 3.5em !important;
+    }
+    .hero.faq
+    {
+        padding: 80px 28.800px !important;
+    }
+}
+@media (min-width: 568px)
+{
+    .main-content.secondary .content-wrapper 
+    {
+    padding: 40px 0 0 0;
+    }
+}
+@media(min-width:1024px)
+{
+    .hero.faq h1 
+    {
+        font-size: 4em !important;
+    }
+}
+@media(min-width:1600px)
+{
+
+}
